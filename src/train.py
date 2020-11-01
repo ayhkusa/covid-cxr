@@ -14,10 +14,12 @@ from tensorflow.keras.models import save_model
 from tensorflow.keras.callbacks import EarlyStopping, TensorBoard, ReduceLROnPlateau
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorboard.plugins.hparams import api as hp
-from src.models.models import *
-from src.visualization.visualize import *
-from src.custom.metrics import F1Score
-from src.data.preprocess import remove_text
+import sys
+sys.path.append('src')
+from models.models import *
+from visualization.visualize import *
+from custom.metrics import F1Score
+from data.preprocess import remove_text
 
 def get_class_weights(histogram, class_multiplier=None):
     '''
@@ -136,7 +138,7 @@ def train_model(cfg, data, callbacks, verbose=1):
     # Train the model.
     steps_per_epoch = ceil(train_generator.n / train_generator.batch_size)
     val_steps = ceil(val_generator.n / val_generator.batch_size)
-    history = model.fit_generator(train_generator, steps_per_epoch=steps_per_epoch, epochs=cfg['TRAIN']['EPOCHS'],
+    history = model.fit(train_generator, steps_per_epoch=steps_per_epoch, epochs=cfg['TRAIN']['EPOCHS'],
                                   validation_data=val_generator, validation_steps=val_steps, callbacks=callbacks,
                                   verbose=verbose, class_weight=class_weight)
 
