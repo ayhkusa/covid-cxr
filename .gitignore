@@ -1,3 +1,5 @@
+data/Figure1-COVID-chestxray-dataset
+data/covid-chestxray-dataset
 data/Figure1-COVID-chestxray-dataset/*
 data/covid-chestxray-dataset/*
 data/rsna/*

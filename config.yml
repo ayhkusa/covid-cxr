@@ -10,7 +10,7 @@ PATHS:
   IMAGES: '/home/ubuntu/covid-cxr/documents/generated_images/'
   LOGS: '/home/ubuntu/covid-cxr/results/logs/'
   MODEL_WEIGHTS: '/home/ubuntu/covid-cxr/results/models/'
-  MODEL_TO_LOAD: '/home/ubuntu/covid-cxr/results/models/model.h5'
+  MODEL_TO_LOAD: '/home/ubuntu/covid-cxr/results/models/model20201102-033225.h5'
   LIME_EXPLAINER: '/home/ubuntu/covid-cxr/data/interpretability/lime_explainer.pkl'
   OUTPUT_CLASS_INDICES: '/home/ubuntu/covid-cxr/data/interpretability/output_class_indices.pkl'
   BATCH_PRED_IMGS: '/home/ubuntu/covid-cxr/data/processed/test/'
