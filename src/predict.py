@@ -68,7 +68,7 @@ def predict_and_explain_set(raw_img_dir=None, preds_dir=None, save_results=True,
     '''
 
     # Load project config data
-    cfg = yaml.full_load(open(os.getcwd() + "/config.yml", 'r'))
+    cfg = yaml.full_load(open("/home/ubuntu/covid-cxr/config.yml", 'r'))
     cur_date = datetime.now().strftime('%Y%m%d-%H%M%S')
 
     # Restore the model, LIME explainer, and model class indices from their respective serializations
