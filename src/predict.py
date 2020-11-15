@@ -9,8 +9,8 @@ from datetime import datetime
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from lime.wrappers.scikit_image import SegmentationAlgorithm
-from src.data.preprocess import remove_text
-from src.visualization.visualize import visualize_explanation
+from data.preprocess import remove_text
+from visualization.visualize import visualize_explanation
 
 
 def predict_instance(x, model):
@@ -68,7 +68,7 @@ def predict_and_explain_set(raw_img_dir=None, preds_dir=None, save_results=True,
     '''
 
     # Load project config data
-    cfg = yaml.full_load(open(os.getcwd() + "/config.yml", 'r'))
+    cfg = yaml.full_load(open("/home/ubuntu/covid-cxr/config.yml", 'r'))
     cur_date = datetime.now().strftime('%Y%m%d-%H%M%S')
 
     # Restore the model, LIME explainer, and model class indices from their respective serializations

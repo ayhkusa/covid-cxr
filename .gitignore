@@ -1,3 +1,9 @@
+data/Figure1-COVID-chestxray-dataset
+data/covid-chestxray-dataset
+data/Figure1-COVID-chestxray-dataset/*
+data/covid-chestxray-dataset/*
+data/rsna/*
+rsna-pneumonia-detection-challenge.zip
 data/processed/*
 data/raw/*
 data/transformers/*
