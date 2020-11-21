@@ -1,3 +1,7 @@
+results/logs/*
+results/models/*
+results/predictions/*
+results/experiments/*
 data/Figure1-COVID-chestxray-dataset
 data/covid-chestxray-dataset
 data/Figure1-COVID-chestxray-dataset/*
@@ -9,11 +13,6 @@ data/raw/*
 data/transformers/*
 data/interpretability/*
 documents/generated_images/*
-results/experiments/*
-results/logs/training/*
-results/logs/hparam_search/*
-results/models/*
-results/predictions/*
 azure/ws_config.json
 azure/.ipynb_checkpoints
 /.amlignore
