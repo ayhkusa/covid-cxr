@@ -25,7 +25,7 @@ To Do: First you find this this implementation of the method called Local Interp
 
 Notebook: https://github.com/ayhkusa/covid-cxr/blob/master/src/interpretability/lime_explain.ipynb
 
-Run results: https://github.com/ayhkusa/covid-cxr/blob/feature/alan/src/interpretability/Part%20I%20-%20LIME%20Model%20run%20results.pdf
+Run results: https://github.com/ayhkusa/covid-cxr/blob/master/src/interpretability/Part%20I%20-%20LIME%20Model%20run%20results.pdf
 
 ### Challenges:
 
@@ -43,9 +43,11 @@ To Do: After your presentation, your manager is clearly impressed with the depth
 
 ### Alan's work: convert train.py to jupyter notebook
 
-Notebook: https://github.com/ayhkusa/covid-cxr/blob/feature/alan/src/train_shap2.ipynb
+Notebook: [train_shap2.ipynb](src/train_shap2.ipynb)
 
-Run results: https://github.com/ayhkusa/covid-cxr/blob/feature/alan/src/Part%20II%20-%20SHAP%20Model%20run%20results.pdf
+[config.yml](config.yml)
+
+Run results: https://github.com/ayhkusa/covid-cxr/blob/master/src/Part%20II%20-%20SHAP%20Model%20run%20results.pdf
 
 ### Challenges:
 
