@@ -1,15 +1,15 @@
 # CS 677 Deep Learning - Project #2 Explainable COVID-19 Pneumonia
-# Prof. Pantelis Monogioudis
-# By Student Alan Yeung
+### Prof. Pantelis Monogioudis
+### By Student Alan Yeung
 
-# System Setup
+## System Setup
 
 AWS instance type: g4dn.2xlarge, 8 cpu, 32 GB, 1 T4 gpu, 16 GB
 OS Linux 18.04.1-Ubuntu
 source activate tensorflow2_latest_p37
 export PATH=/opt/tljh/user/bin:$PATH
 
-# Project Github
+## Project Github
 
 https://github.com/ayhkusa/covid-cxr
 
