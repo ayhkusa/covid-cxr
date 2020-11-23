@@ -35,7 +35,7 @@ Run results: https://github.com/ayhkusa/covid-cxr/blob/feature/alan/src/interpre
 
 To Do: A fellow AI engineer, tells you about another method called SHAP that stands for SHapley Additive exPlanations and she mentions that Shapley was a Nobel prize winner so it must be important. You then find out that Google is using it and wrote a readable white paper about it and your excitement grows. Your manager sees you on the corridor and mentions that your work is needed soon. You are keen to impress her and start writing your 3-5 page summary of the SHAP approach as can be applied to explaining deep learning classifiers such as the ResNet network used in (1). (40%)
 
-
+https://github.com/ayhkusa/covid-cxr/blob/feature/alan/summary_paper.md
 
 ## Section III - Add SHAP to existing x-ray model in https://github.com/aildnont/covid-cxr
 
