@@ -14,14 +14,22 @@ Business Stakeholders – These individuals would make the decision if the ML pr
 
 End Users – These are the people that will use the ML program on a daily basis. They are the eyes and guards of the model’s behavior. The human intuition coupled with explainable ML program would build trust and provide additional benefits in decision making.
 
+## Why ML Explainability
+
+ML programs interpret the data with algorithms to predict an event without knowing why. Therefore it is important for ML creators and users to understand the predictions in human terms with transparency.  
+
 ## What Explainable Models are in Use:
 
 Integrated Gradients is recommended for neural networks especially for large input feature such as images. 
 
 XRAI is recommended for image models where it's desirable to localize attributions at the region vs. pixel level. 
 
-Sampled Shapley is recommended for tabular and non-differentiable models, which is the case in AutoML Tables models consisting of
-meta-ensembles of trees and neural networks.
+Shapley is recommended for tabular and non-differentiable models, which is the case in AutoML Tables models consisting of meta-ensembles of trees and neural networks.
 
-LIME 
+LIME is a ML model agnostic method by testing the ML model results when certain aspects are changed within the model. 
+
+## Conclusion
+
+Explainability is one facet of ML journey. It is critical to ML practitioners and users to establish a trust in using ML programs. Explainability must be conveyed in human terms that doesn't require a user to have extensive ML training. The SHAP explanation is a very good method but still require more work to traverse the deep network to reveal the feature and layer with the most contribution to the prediction outcomes.
+
 
