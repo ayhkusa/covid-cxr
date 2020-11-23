@@ -10,3 +10,9 @@ Data Scientists – These individuals who works and creates ML models. They are 
 
 Domain Experts – These are the individual with specialization in a particular field. Such as doctors that looks at a patient’s x-ray to decide if the case of ailment is positive or negative. Their extensive training and experience would complement the ML models. It is especially critical that when there is a disagreement between the model and human judgement. We need to know how the model made the conclusion and factors it used for the decision.
 
+Business Stakeholders – These individuals would make the decision if the ML program would have the necessary funding. The ML model must provide explanations that are understandable in their terminologies. Buy-ins from the stakeholders is critical to proliferation the ML program.
+
+End Users – These are the people that will use the ML program on a daily basis. They are the eyes and guards of the model’s behavior. The human intuition coupled with explainable ML program would build trust and provide additional benefits in decision making.
+
+## What Explainable Models are in Use:
+
