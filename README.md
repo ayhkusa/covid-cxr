@@ -23,9 +23,9 @@ To Do: First you find this this implementation of the method called Local Interp
 
 ### Alan's work: convert lime_explain.py to jupyter notebook
 
-Notebook: https://github.com/ayhkusa/covid-cxr/blob/master/src/interpretability/lime_explain.ipynb
+Notebook: [lime_explain.ipynb](src/interpretability/lime_explain.ipynb)
 
-Run results: https://github.com/ayhkusa/covid-cxr/blob/master/src/interpretability/Part%20I%20-%20LIME%20Model%20run%20results.pdf
+Run results: [Part I - LIME Model run results.pdf](src/interpretability/Part%20I%20-%20LIME%20Model%20run%20results.pdf)
 
 ### Challenges:
 
@@ -35,7 +35,7 @@ Run results: https://github.com/ayhkusa/covid-cxr/blob/master/src/interpretabili
 
 To Do: A fellow AI engineer, tells you about another method called SHAP that stands for SHapley Additive exPlanations and she mentions that Shapley was a Nobel prize winner so it must be important. You then find out that Google is using it and wrote a readable white paper about it and your excitement grows. Your manager sees you on the corridor and mentions that your work is needed soon. You are keen to impress her and start writing your 3-5 page summary of the SHAP approach as can be applied to explaining deep learning classifiers such as the ResNet network used in (1). (40%)
 
-### Paper https://github.com/ayhkusa/covid-cxr/blob/feature/alan/summary_paper.md
+### Paper [summary_paper.md](summary_paper.md)
 
 ## Section III - Add SHAP to existing x-ray model in https://github.com/aildnont/covid-cxr
 
@@ -45,9 +45,7 @@ To Do: After your presentation, your manager is clearly impressed with the depth
 
 Notebook: [train_shap2.ipynb](src/train_shap2.ipynb)
 
-[config.yml](config.yml)
-
-Run results: https://github.com/ayhkusa/covid-cxr/blob/master/src/Part%20II%20-%20SHAP%20Model%20run%20results.pdf
+Run results: [Part II - SHAP Model run results.pdf](src/Part%20II%20-%20SHAP%20Model%20run%20results.pdf)
 
 ### Challenges:
 
