@@ -28,6 +28,20 @@ Shapley is recommended for tabular and non-differentiable models, which is the c
 
 LIME is a ML model agnostic method by testing the ML model results when certain aspects are changed within the model. 
 
+## What to Explain
+
+• Bias: This concern is high on the list of explainability. Does the ML model lean towards a specify data pattern creating unfairness? Ability to recognize this behavior that provides an opportunity for corrective action.
+
+• Correctness: Did the model use arrive at similar features to prediction the results as humans do? Or something totally different to how human would interprets the data.
+
+• Human comprehensibility: Ability to convey the results that is equally understandable in language of the ML end user. As if one human to another human of equal skills.
+
+• Improvement: Can the ML model explain the result that may be overlooked by domain experts? Provides an opportuntity to further enhance the ML model in iterations.
+
+• Robustness: Would the model detect interferences that may be unintentional or intentional. Ability to hightlight the differences and reveal the source of the error.
+
+• Transferability: Is the explainability scope limited to single application or shareable across multiple domains. 
+
 ## Conclusion
 
 Explainability is one facet of ML journey. It is critical to ML practitioners and users to establish a trust in using ML programs. Explainability must be conveyed in human terms that doesn't require a user to have extensive ML training. The SHAP explanation is a very good method but still require more work to traverse the deep network to reveal the feature and layer with the most contribution to the prediction outcomes.
