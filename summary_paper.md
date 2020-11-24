@@ -44,6 +44,6 @@ LIME is a ML model agnostic method by testing the ML model results when certain 
 
 ## Conclusion
 
-Explainability is one facet of ML journey. It is critical to ML practitioners and users to establish a trust in using ML programs. Explainability must be conveyed in human terms that doesn't require a user to have extensive ML training. The SHAP explanation is a very good method but still require more work to traverse the deep network to reveal the feature and layer with the most contribution to the prediction outcomes.
+Explainability is one facet of ML journey. It is critical to ML practitioners and users to establish a trust in using ML programs. Explainability must be conveyed in human terms that doesn't require an user to have extensive ML training. The SHAP explanation is one of the latest model and adoptable across various ML techinques. But more work is required to traverse the deep network to reveal the features and layers with the most contribution to the prediction outcomes.
 
 
