@@ -42,6 +42,16 @@ LIME is a ML model agnostic method by testing the ML model results when certain 
 
 • Transferability: Is the explainability scope limited to single application or shareable across multiple domains. 
 
+## How to Explain
+
+• Text explanations by spoken lanugage relevant to the subject domain.
+
+• Visual explanation by highlighting or overlaying images with additional visual aids.
+
+• Local explanations focus on the area that contributed to the prediction vs trying to explain everything.
+
+• Explanations by example to show similarities with another example.
+
 ## Conclusion
 
 Explainability is one facet of ML journey. It is critical to ML practitioners and users to establish a trust in using ML programs. Explainability must be conveyed in human terms that doesn't require an user to have extensive ML training. The SHAP explanation is one of the latest model and adoptable across various ML techinques. But more work is required to traverse the deep network to reveal the features and layers with the most contribution to the prediction outcomes.
